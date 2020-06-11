@@ -5,8 +5,11 @@ List of Available Snapshots
 
 SnapshotList uses the ASW cli configuration file
 
-`aws configure --profile_name SnapshotList`
+`aws configure --profile SnapshotList`
 
 ## Running
 
-`pipenv run python3 list/list.py`
+`pipenv run python3 list/list.py <command> <--project='project_name'>`
+
+*command* list, start, stop
+*project* key identifier, optional
